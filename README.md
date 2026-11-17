@@ -1,6 +1,6 @@
 # Term rewriting
 
-RewriteLab explores a bounded graph of algebraically equivalent expressions.
+Term rewriting explores a bounded graph of algebraically equivalent expressions.
 It compares the cheapest reachable expression with every equivalent expression
 in a small grammar. A cheaper expression can fit the size budget yet require a
 larger intermediate expression to reach it.
