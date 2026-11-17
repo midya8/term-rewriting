@@ -1,11 +1,11 @@
-# RewriteLab
+# Term rewriting
 
 RewriteLab explores a bounded graph of algebraically equivalent expressions.
 It compares the cheapest reachable expression with every equivalent expression
 in a small grammar. A cheaper expression can fit the size budget yet require a
 larger intermediate expression to reach it.
 
-[Live inspector](https://midya8.github.io/rewritelab/) · [Exact contract](CONTRACT.md) · [Search](rewritelab/search.py) · [Independent checker](rewritelab/oracle.py)
+[Live inspector](https://midya8.github.io/term-rewriting/) · [Exact contract](CONTRACT.md) · [Search](rewritelab/search.py) · [Independent checker](rewritelab/oracle.py)
 
 ## Rewrite closure and cost atlases
 
@@ -86,7 +86,7 @@ See [SOURCES.md](SOURCES.md).
 
 ## Budget-barrier atlas
 
-[Live atlas](https://midya8.github.io/rewritelab/barriers.html) ·
+[Live atlas](https://midya8.github.io/term-rewriting/barriers.html) ·
 [Exact filtration contract](BARRIERS.md) · [Independent atlas verifier](rewritelab/barrier_oracle.py)
 
 Inspect every 3/5/7-node level through the selected cap, every semantic candidate,
@@ -109,7 +109,7 @@ or compiler speed. Base controls, contract and source ledger remain unchanged.
 
 ## Complete cost-weight atlas
 
-[Live cost-weight atlas](https://midya8.github.io/rewritelab/weights.html) ·
+[Live cost-weight atlas](https://midya8.github.io/term-rewriting/weights.html) ·
 [Exact box contract](WEIGHTS.md) · [Independent checker](rewritelab/weight_oracle.py)
 
 One fixed graph, all 512 integral (+, *, leaf) triples in 1..8. Complete operation-
